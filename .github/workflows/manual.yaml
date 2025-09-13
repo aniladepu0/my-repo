@@ -1,0 +1,16 @@
+name: manualworkflow
+on: workflow_dispatch
+jobs:
+  build:
+   runs-on: ubuntu-latest
+   steps:
+   - name: command
+     run: echo "manual trigger workflow"
+
+   
+  info: #knowing about github cpu and version via linux commands
+   runs-on: ubuntu-latest
+   steps:
+   - name: linuxcommands
+     run: cat /etc/os-release
+        
