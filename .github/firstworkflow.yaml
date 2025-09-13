@@ -1,11 +1,8 @@
-name: myfirstworkflow
-on: 
- branches:
-   push:
-   - main
+name: manual workflow
+on: workflow_dispatch
 jobs:
-  build job:
+  manual triggerjob:
   runs-on: ubuntu-latest
     steps:
     - name: greet
-      run: echo "hello world"
+      run: echo "manual triggering workflow"
