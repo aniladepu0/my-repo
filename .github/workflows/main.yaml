@@ -1,0 +1,12 @@
+name: myfirstworkflow
+on:
+ push:
+  branches:
+    - main #trigger from this branch only
+jobs:
+   build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: greet
+      run: echo"hello world"
