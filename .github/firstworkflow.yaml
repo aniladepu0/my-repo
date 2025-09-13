@@ -1,4 +1,4 @@
-name: manual workflow
+name: manualworkflow
 on: workflow_dispatch
 jobs:
   manual triggerjob:
