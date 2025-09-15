@@ -8,7 +8,8 @@ jobs:
   - name: info of os
     run: cat /etc/os-release
   - name: installed softwares
-    run: java --version
+    run: |
+      java --version
      
 
  job2:
