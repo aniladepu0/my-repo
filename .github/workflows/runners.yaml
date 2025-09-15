@@ -6,4 +6,4 @@ jobs:
   runs-on: ubuntu-latest
   steps:
   - name: info of os
-    run: java --version
+    run: cat /etc/os-release
