@@ -1,0 +1,9 @@
+name: runners workflow
+on: workflow_dispatch
+
+jobs:
+ job1:
+  runs-on: ubuntu-latest
+  steps:
+  - name: info of os
+    run: java --version
