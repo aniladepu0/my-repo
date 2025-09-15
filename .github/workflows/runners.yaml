@@ -11,12 +11,14 @@ jobs:
     run: |
       java --version
       node -v
-      python version
-      docker version
-     
+   
 
  job2:
-  runs-on: ubuntu-22.04
+  runs-on: self-hosted
   steps: 
   - name: info os
     run: cat /etc/os-release
+  - name: installed softwares
+    run: |
+      java --version
+      node -v
