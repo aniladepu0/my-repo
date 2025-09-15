@@ -9,8 +9,9 @@ jobs:
     run: cat /etc/os-release
   - name: installed softwares
     run: |
-      java --version
-      node -v
+      cd
+      mkdir githubactions
+      ls
    
 
  job2:
@@ -20,5 +21,6 @@ jobs:
     run: cat /etc/os-release
   - name: installed softwares
     run: |
-      java --version
-      node -v
+      cd
+      mkdir selhosted-runner
+      ls
