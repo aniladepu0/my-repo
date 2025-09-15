@@ -10,6 +10,9 @@ jobs:
   - name: installed softwares
     run: |
       java --version
+      node -v
+      python version
+      docker version
      
 
  job2:
