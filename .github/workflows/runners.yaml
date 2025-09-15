@@ -8,9 +8,8 @@ jobs:
   - name: info of os
     run: cat /etc/os-release
   - name: installed softwares
-    run: 
-     java --version
-     node -v
+    run: java --version
+     
 
  job2:
   runs-on: ubuntu-22.04
