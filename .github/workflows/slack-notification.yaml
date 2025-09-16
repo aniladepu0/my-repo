@@ -11,4 +11,4 @@ jobs:
       webhook-type: incoming-webhook
       payload: |
        channel: all-anil-tech
-       text: "aniladepu workflow triggered, trigger number $github_run_number"
+       text: "aniladepu workflow triggered, trigger number ${{github.run_number}}"
