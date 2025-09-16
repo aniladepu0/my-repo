@@ -7,7 +7,7 @@ jobs:
    - name: notification
      uses: slackapi/slack-github-action@v2.1.1
      with:
-      webhook: ${{secrets SLACK_NOTIFICATION}}
+      webhook: ${{secrets.SLACK_NOTIFICATION}}
       webhooktype: incoming-webhook
       payload: |
        channel: all-anil-tech
